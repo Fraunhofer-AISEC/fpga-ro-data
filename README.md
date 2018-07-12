@@ -24,13 +24,13 @@ They each contain 4 files named:
 
 Each file corresponds to one measurement run with one of the 4 different bitstreams/fpga-configurations described in the paper.
 
-###`ro_frequency_temperature/`
+### `ro_frequency_temperature/`
 measured on 50 FPGAs at ambient temperatures 5 °C, 15 °C, 25 °C, 35 °C, 45 °C, 55 °C
 
-###`ro_frequency_evaluation_time/`
+### `ro_frequency_evaluation_time/`
 measured on 217 FPGAs at ambient room temperature
 
-###`placement_information/`
+### `placement_information/`
 detailed info on placement for each bitstream in csv format
 
 
