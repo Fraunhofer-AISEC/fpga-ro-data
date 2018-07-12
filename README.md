@@ -45,7 +45,7 @@ Contains axis datasets:
 * `ro_ids`
 * `temperatures`
 
-These are linked to the dimensions of the actual dataset data/ro_counts and map the indexes of a dimension to a value.
+These are linked to the dimensions of the actual dataset `data/ro_counts` and map the indexes of a dimension to a value.
 For example `axis/temperature` is linked to the dimension with the index 2 of `data/ro_counts`, which means that all values `data/ro_counts[:,:,i,:,:]` correspond to the temperature `axis/temperature[i]`.
 
 `evaluation_times` is the number of system clock cycles that were counted at **100MHz** before the RO counter was stopped.
